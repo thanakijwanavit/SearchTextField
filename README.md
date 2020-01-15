@@ -83,7 +83,7 @@ mySearchTextField.maxNumberOfResults = 5
 mySearchTextField.maxResultsListHeight = 200
 
 // Customize the way it highlights the search string. By default it bolds the string
-mySearchTextField.highlightAttributes = [NSBackgroundColorAttributeName: UIColor.yellowColor(), NSFontAttributeName:UIFont.boldSystemFontOfSize(12)]
+searchField.highlightAttributes = [NSAttributedString.Key.backgroundColor: UIColor.yellow, NSAttributedString.Key.font:UIFont.boldSystemFont(ofSize: 12)]
 
 // Handle what happens when the user picks an item. By default the title is set to the text field
 mySearchTextField.itemSelectionHandler = {item, itemPosition in
